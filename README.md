@@ -1,0 +1,2 @@
+# SessionManager-Android
+Session Manager: This is a simple library project which you can use in your project to handle session in your android applications. This project will handle the session functionality and display a graphical timer at the end so that the user can extend the session as per his/her need or the default action will occur[logout]. The timer displayed in this library is designed in such a way that it will be displayed appropriately according to the device screen [phone/tablet].
