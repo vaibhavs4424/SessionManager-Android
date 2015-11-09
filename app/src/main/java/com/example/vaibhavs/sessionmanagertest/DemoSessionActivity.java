@@ -62,7 +62,7 @@ public class DemoSessionActivity extends ActionBarActivity implements SessionMan
         mStartCountDown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if ((mTimerDisplayTime.getText() == null && mTimerDisplayTime.getText().equals("")) || (mTotalSessionTime.getText() == null && mTotalSessionTime.getText().equals("")))
+                if ((mTimerDisplayTime.getText().toString().trim().length() == 0) || (mTotalSessionTime.getText().toString().trim().length() == 0))
                     Toast.makeText(DemoSessionActivity.this, "Fields cannot be left blank before starting the timer.", Toast.LENGTH_LONG).show();
                 else {
                     sessionTimeOut = Long.parseLong(mTotalSessionTime.getText().toString());
