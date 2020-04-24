@@ -6,7 +6,7 @@ ____
 ScreenShot
 ----------
  
-![Screenshot]  (https://github.com/vaibhavs4424/SessionManager-Android/blob/master/SessionManager.gif)
+![Screenshot](https://github.com/vaibhavs4424/SessionManager-Android/blob/master/SessionManager.gif)
 
 
 
